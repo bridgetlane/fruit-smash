@@ -70,7 +70,7 @@ window.onload = function() {
         
         setTimeout(function(){ if (game.input.mousePointer.isDown) {releaseFire();} }, 100);
         
-        if (game.input.mousePointer.isDown){
+        if (game.input.activePointer.isDown){
             releaseFire();
         }
         
